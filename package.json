@@ -1,0 +1,25 @@
+{
+  "name": "bithack",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "balance": "node balance.js",
+    "workers": "node index.js",
+    "worker": "node worker.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "axios": "^1.4.0",
+    "better-sqlite3": "^7.5.0",
+    "bluebird": "^3.5.0",
+    "coinkey": "^3.0.0",
+    "csv-parser": "^3.0.0",
+    "lodash": "^4.17.4",
+    "megahash": "^1.0.5",
+    "updates": "^16.4.1",
+    "wif": "^5.0.0"
+  }
+}
